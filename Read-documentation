@@ -16,15 +16,7 @@ import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
 
 
 
-
 Step 4___
---------------------Import in module.ts----------------------------
-import { OwlDateTimeModule, OwlNativeDateTimeModule } from 'ng-pick-datetime';
-
-
-
-
-Step 5___
 --------------------Keep in html----------------------------
 here----Connecting a picker to an input and a trigger so,
 

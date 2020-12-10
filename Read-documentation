@@ -51,6 +51,11 @@ or__________
 // inline element
 <owl-date-time-inline [(ngModel)]="selectedMoment"></owl-date-time-inline>
 
+or__________
+// Range Select
+<input [owlDateTimeTrigger]="dt10" [owlDateTime]="dt10"
+           [selectMode]="'range'">                                               // For Range
+    <owl-date-time #dt10></owl-date-time>
 
 Important Note---   For more customization  checkout this link    https://daniel-projects.firebaseapp.com/owlng/date-time-picker
 
